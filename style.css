@@ -1239,6 +1239,9 @@ header {
 	.portfolio__menu {
 	gap: 31px;
 	}
+	.contact__feedback__customer > form{
+	left:53px;	
+	}
 }
 @media(max-width: 390px){
 	.main__baner__btns{
