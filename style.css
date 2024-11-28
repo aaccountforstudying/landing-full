@@ -890,8 +890,17 @@ header {
 }
 
 .contact__img {
-  align-items: center;
-  margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.contact__img > iframe{
+	width: 1100px;
+	height: 550px; 
+	border:0;
+	border-radius: 15px;  
 }
 
 /* footer */
